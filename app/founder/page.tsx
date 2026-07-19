@@ -68,7 +68,7 @@ export default function FounderPage() {
               <div className="absolute inset-0 bg-[var(--color-purple-slice)] mix-blend-overlay opacity-30 z-10" />
               
               <Image 
-                src="/founder_cartoon.png" 
+                src="../founder_cartoon.png" 
                 alt="Founder Cartoon Portrait"
                 fill
                 className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500"

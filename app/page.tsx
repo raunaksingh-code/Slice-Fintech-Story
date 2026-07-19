@@ -18,7 +18,7 @@ export default function Home() {
           animate={{ scale: 1 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('/slice_hero_bg.png')" }}
+          style={{ backgroundImage: "url('./slice_hero_bg.png')" }}
         />
         {/* Subtle overlay for text readability */}
         <div className="absolute inset-0 bg-black/20" />
