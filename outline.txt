@@ -1,0 +1,60 @@
+Global Fintech Encyclopedia
+slice — Web Page Content Outline
+Copy-ready text for the live, publicly accessible page. Paste section by section into your site builder (Notion, Carrd, Framer, Google Sites, etc.). Mobile-first — short paragraphs, no dense blocks.
+
+Hero / Header
+PAGE TITLE
+slice
+SUBTITLE
+From a prepaid card for students to India's first fintech-turned-bank
+META LINE (optional, small text under subtitle)
+Founded 2016, Bengaluru · Founder: Rajan Bajaj · Now: slice Small Finance Bank
+1. The Friction
+SECTION HEADING
+The Friction
+BODY COPY
+India had ~1.4 billion people but fewer than 80 million active credit-card holders.
+Students, fresh graduates, gig workers, and young professionals had no formal credit history — traditional banks wouldn't issue them cards.
+Result: 300+ million new-to-credit people locked out of building a credit score, pushed toward informal or high-cost credit.
+2. The Founder(s)
+SECTION HEADING
+The Founder(s)
+BODY COPY
+Founded January 2016 by Rajan Bajaj (with Deepak Malhotra) as SlicePay / Garagepreneurs Internet Pvt Ltd.
+Bajaj: civil engineering graduate, IIT Kharagpur; started as a business analyst intern at Walmart.
+Earlier founded Mesh Internet, which failed — that experience shaped his approach to slice.
+Personal connection: wanted to give India's youth easier, transparent credit access and a way to start building a credit score early.
+3. The Business Model
+SECTION HEADING
+The Business Model
+BODY COPY
+2016–2022: prepaid card + credit line. Revenue from merchant subvention (Amazon, Flipkart no-cost EMIs), card interchange, and EMI interest.
+June 2022: RBI banned non-banks from loading credit lines onto prepaid instruments — broke the core model overnight.
+Pivot: obtained its own PPI licence; shifted to term and unsecured loans via NBFC subsidiary Quadrillion Finance.
+Since 2024, as a small finance bank: net interest income from deposits and loans, fee income, plus lending and payments revenue.
+Who pays: cardholders/borrowers (interest, fees), merchants (subvention, interchange), depositors indirectly fund the loan book.
+4. Geography & Scale
+SECTION HEADING
+Geography & Scale
+BODY COPY
+Started in Bengaluru, 2016, targeting metro students and young professionals.
+300,000+ customers across 30+ Indian cities by 2021; crossed $1 billion valuation (unicorn) on 29 November 2021.
+Peak: 400,000+ cards issued in a single month — more than any other Indian fintech or bank.
+Peak valuation ~$1.5–1.8 billion (2022–23), before the RBI rule change hit the business.
+September 2022: acquired a 5% stake in North East Small Finance Bank (Guwahati, Assam) for $3.4 million.
+Today: nationwide as slice Small Finance Bank — 20+ million registered users, 3,000+ employees, HQ Bengaluru, registered office Guwahati.
+5. Status Today
+SECTION HEADING
+Status Today
+BODY COPY
+Still operating and growing. Merged with North East Small Finance Bank (completed October 2024) to become slice Small Finance Bank.
+Rajan Bajaj approved by the RBI as MD & CEO of the merged bank, February 2026.
+First-ever profit in FY26 (₹27.97 crore over three quarters); 4 million+ savings accounts opened within a year of full banking operations.
+Raised $250 million+ from investors including Tiger Global, Insight Partners, and Advent International.
+TAKEAWAY (pull-quote style, larger text)
+A regulatory shock in 2022 nearly ended slice's original business — instead, it forced a pivot into a full, regulated banking licence, turning a near-death crisis into a more durable model.
+Footer
+SOURCES
+List citations per your group's reference format (RBI notices, TechCrunch, Business Standard, Wikipedia, company site, etc.).
+CREDITS
+Group members, section, roll numbers, course name.
