@@ -30,7 +30,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="text-7xl md:text-9xl font-black tracking-tighter text-white mb-6 uppercase leading-none"
+            className="text-5xl md:text-9xl font-black tracking-tighter text-white mb-6 uppercase leading-none"
           >
             Do right <br className="md:hidden"/> by the money
           </motion.h1>
@@ -51,10 +51,10 @@ export default function Home() {
             transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
             className="flex items-center bg-white/10 backdrop-blur-xl rounded-full p-2 border border-white/20 shadow-2xl mb-8 group hover:bg-white/20 transition-all cursor-pointer"
           >
-             <span className="px-8 text-white font-semibold text-sm md:text-lg tracking-tight">
+             <span className="px-4 md:px-8 text-white font-semibold text-xs md:text-lg tracking-tight">
                Trusted by 20mn+ Indians
              </span>
-             <button className="bg-[#bf00ff] hover:bg-[#a600e6] transition-colors text-white font-bold px-10 py-4 rounded-full text-sm md:text-lg shadow-[0_0_20px_rgba(191,0,255,0.4)] group-hover:shadow-[0_0_40px_rgba(191,0,255,0.6)]">
+             <button className="bg-[#bf00ff] hover:bg-[#a600e6] transition-colors text-white font-bold px-6 md:px-10 py-3 md:py-4 rounded-full text-xs md:text-lg shadow-[0_0_20px_rgba(191,0,255,0.4)] group-hover:shadow-[0_0_40px_rgba(191,0,255,0.6)]">
                Get slice
              </button>
           </motion.div>
@@ -94,7 +94,7 @@ export default function Home() {
       {/* What We Offer Section */}
       <section className="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
         <div className="text-center mb-16 relative">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full text-[10rem] font-black text-gray-900/5 rotate-[-5deg] pointer-events-none whitespace-nowrap">PRODUCTS</div>
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full text-6xl md:text-[10rem] font-black text-gray-900/5 rotate-[-5deg] pointer-events-none whitespace-nowrap">PRODUCTS</div>
           <h2 className="text-5xl md:text-7xl font-space-grotesk font-black mb-6 uppercase tracking-tighter relative z-10 text-gray-900">
             What We Offer
           </h2>
@@ -142,7 +142,7 @@ export default function Home() {
           <h2 className="text-5xl md:text-7xl font-space-grotesk font-black mb-6 uppercase tracking-tighter relative z-10 text-gray-900">
             Our Core Philosophy
           </h2>
-          <div className="inline-block bg-[var(--color-purple-slice)] text-white text-xl font-bold max-w-2xl mx-auto border-4 border-gray-900 p-4 rounded-xl shadow-[6px_6px_0px_0px_rgba(17,24,39,1)] rotate-1">
+          <div className="inline-block bg-[var(--color-purple-slice)] text-white text-base md:text-xl font-bold max-w-2xl mx-auto border-4 border-gray-900 p-4 rounded-xl shadow-[6px_6px_0px_0px_rgba(17,24,39,1)] rotate-1">
             We are fundamentally redesigning the financial experience for the young, ambitious, and fast-moving generation.
           </div>
         </div>
@@ -185,14 +185,14 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-12">
             <div className="flex-1">
-              <h2 className="text-5xl md:text-7xl font-space-grotesk font-black mb-8 uppercase tracking-tighter leading-none">
+              <h2 className="text-4xl md:text-7xl font-space-grotesk font-black mb-8 uppercase tracking-tighter leading-none">
                 From <span className="text-red-500 line-through decoration-8 decoration-gray-900">Complexity</span> <br/>
                 <span className="text-[var(--color-purple-slice)]">to Simplicity</span>
               </h2>
               <p className="text-xl text-gray-700 font-medium mb-10 border-l-8 border-[var(--color-purple-slice)] pl-6 py-2">
                 Traditional banking is broken. It's slow, opaque, and hostile. We stripped away the jargon, the hidden fees, and the unnecessary paperwork to create a truly seamless experience.
               </p>
-              <Link href="/friction" className="inline-flex items-center gap-4 bg-gray-900 text-white font-black text-xl uppercase px-8 py-4 rounded-full border-4 border-transparent hover:bg-[var(--color-purple-slice)] hover:border-gray-900 hover:shadow-[6px_6px_0px_0px_rgba(17,24,39,1)] transition-all">
+              <Link href="/friction" className="inline-flex items-center gap-4 bg-gray-900 text-white font-black text-sm md:text-xl uppercase px-6 md:px-8 py-3 md:py-4 rounded-full border-4 border-transparent hover:bg-[var(--color-purple-slice)] hover:border-gray-900 hover:shadow-[6px_6px_0px_0px_rgba(17,24,39,1)] transition-all">
                 See the problem <ArrowRight className="w-6 h-6" />
               </Link>
             </div>

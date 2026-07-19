@@ -34,8 +34,8 @@ export default function BusinessModelPage() {
         </p>
 
         {/* Money Flow Diagram */}
-        <div className="h-[500px] w-full bg-yellow-50 border-4 border-gray-900 p-2 mb-24 relative shadow-[8px_8px_0px_0px_rgba(17,24,39,1)]">
-          <div className="absolute top-4 left-4 z-10 bg-white px-4 py-2 border-2 border-gray-900 shadow-[2px_2px_0px_0px_rgba(17,24,39,1)] uppercase font-black text-gray-900 text-lg">
+        <div className="h-[400px] md:h-[500px] w-full bg-yellow-50 border-4 border-gray-900 p-2 mb-24 relative shadow-[8px_8px_0px_0px_rgba(17,24,39,1)]">
+          <div className="absolute top-4 left-4 z-10 bg-white px-2 md:px-4 py-1 md:py-2 border-2 border-gray-900 shadow-[2px_2px_0px_0px_rgba(17,24,39,1)] uppercase font-black text-gray-900 text-sm md:text-lg">
             Money Flow Architecture
           </div>
           <ReactFlow 

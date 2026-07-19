@@ -10,10 +10,10 @@ export default function ScalePage() {
   return (
     <div className="flex flex-col gap-24 pb-24 pt-32">
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center">
-        <h1 className="text-6xl md:text-8xl font-space-grotesk font-black tracking-tighter mb-10 uppercase text-gray-900">
+        <h1 className="text-5xl md:text-8xl font-space-grotesk font-black tracking-tighter mb-10 uppercase text-gray-900">
           Geography & <span className="text-white bg-[#bf00ff] px-2 border-4 border-gray-900 shadow-[6px_6px_0px_0px_rgba(17,24,39,1)] inline-block rotate-2">Scale</span>
         </h1>
-        <p className="text-2xl font-bold text-gray-700 max-w-3xl mx-auto border-4 border-gray-900 p-6 shadow-[6px_6px_0px_0px_rgba(17,24,39,1)] bg-yellow-300 transform -rotate-1 mb-16">
+        <p className="text-lg md:text-2xl font-bold text-gray-700 max-w-3xl mx-auto border-4 border-gray-900 p-4 md:p-6 shadow-[6px_6px_0px_0px_rgba(17,24,39,1)] bg-yellow-300 transform -rotate-1 mb-16">
           From a small startup in Bengaluru to a financial powerhouse operating across India.
         </p>
 
@@ -34,26 +34,26 @@ export default function ScalePage() {
 
           <div className="relative z-10 text-center">
             <Globe className="w-24 h-24 text-[var(--color-purple-slice)] mx-auto mb-6 opacity-100 stroke-[3]" />
-            <h2 className="text-5xl font-space-grotesk font-black mb-6 uppercase tracking-tighter drop-shadow-[4px_4px_0_rgba(191,0,255,1)]">Pan-India Presence</h2>
-            <p className="text-xl font-bold bg-[#10B981] text-gray-900 p-4 border-4 border-gray-900 inline-block max-w-2xl shadow-[4px_4px_0px_0px_rgba(17,24,39,1)] uppercase tracking-tight">
+            <h2 className="text-4xl md:text-5xl font-space-grotesk font-black mb-6 uppercase tracking-tighter drop-shadow-[4px_4px_0_rgba(191,0,255,1)]">Pan-India Presence</h2>
+            <p className="text-base md:text-xl font-bold bg-[#10B981] text-gray-900 p-3 md:p-4 border-4 border-gray-900 inline-block max-w-2xl shadow-[4px_4px_0px_0px_rgba(17,24,39,1)] uppercase tracking-tight">
               HQ in Bengaluru, registered office in Guwahati. From targeting metro students in 2016 to serving a nationwide audience as a Small Finance Bank today.
             </p>
           </div>
 
           {/* Animated Nodes representing cities */}
           <motion.div animate={{ scale: [1, 1.2, 1], opacity: [0.5, 1, 0.5] }} transition={{ duration: 4, repeat: Infinity }} className="absolute top-1/4 left-1/4">
-             <div className="flex items-center gap-2 bg-yellow-300 border-2 border-gray-900 text-gray-900 font-bold px-4 py-2 shadow-[2px_2px_0px_0px_rgba(17,24,39,1)] uppercase tracking-widest">
-                <MapPin className="w-4 h-4 text-gray-900 stroke-[3]" /> <span className="text-sm">Delhi NCR</span>
+             <div className="flex items-center gap-1 md:gap-2 bg-yellow-300 border-2 border-gray-900 text-gray-900 font-bold px-2 md:px-4 py-1 md:py-2 shadow-[2px_2px_0px_0px_rgba(17,24,39,1)] uppercase tracking-widest">
+                <MapPin className="w-3 h-3 md:w-4 md:h-4 text-gray-900 stroke-[3]" /> <span className="text-xs md:text-sm">Delhi NCR</span>
              </div>
           </motion.div>
           <motion.div animate={{ scale: [1, 1.2, 1], opacity: [0.5, 1, 0.5] }} transition={{ duration: 3, delay: 1, repeat: Infinity }} className="absolute bottom-1/3 right-1/4">
-             <div className="flex items-center gap-2 bg-[#bf00ff] border-2 border-gray-900 text-white font-bold px-4 py-2 shadow-[2px_2px_0px_0px_rgba(17,24,39,1)] uppercase tracking-widest">
-                <MapPin className="w-4 h-4 text-white stroke-[3]" /> <span className="text-sm">Bengaluru</span>
+             <div className="flex items-center gap-1 md:gap-2 bg-[#bf00ff] border-2 border-gray-900 text-white font-bold px-2 md:px-4 py-1 md:py-2 shadow-[2px_2px_0px_0px_rgba(17,24,39,1)] uppercase tracking-widest">
+                <MapPin className="w-3 h-3 md:w-4 md:h-4 text-white stroke-[3]" /> <span className="text-xs md:text-sm">Bengaluru</span>
              </div>
           </motion.div>
           <motion.div animate={{ scale: [1, 1.2, 1], opacity: [0.5, 1, 0.5] }} transition={{ duration: 5, delay: 0.5, repeat: Infinity }} className="absolute top-1/3 right-1/3">
-             <div className="flex items-center gap-2 bg-white border-2 border-gray-900 text-gray-900 font-bold px-4 py-2 shadow-[2px_2px_0px_0px_rgba(17,24,39,1)] uppercase tracking-widest">
-                <MapPin className="w-4 h-4 text-gray-900 stroke-[3]" /> <span className="text-sm">Mumbai</span>
+             <div className="flex items-center gap-1 md:gap-2 bg-white border-2 border-gray-900 text-gray-900 font-bold px-2 md:px-4 py-1 md:py-2 shadow-[2px_2px_0px_0px_rgba(17,24,39,1)] uppercase tracking-widest">
+                <MapPin className="w-3 h-3 md:w-4 md:h-4 text-gray-900 stroke-[3]" /> <span className="text-xs md:text-sm">Mumbai</span>
              </div>
           </motion.div>
         </div>

@@ -35,10 +35,10 @@ export default function FinancialsPage() {
   return (
     <div className="flex flex-col gap-24 pb-24 pt-32 bg-gray-50 min-h-screen">
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center">
-        <h1 className="text-6xl md:text-8xl font-space-grotesk font-black tracking-tighter mb-8 uppercase text-gray-900">
+        <h1 className="text-5xl md:text-8xl font-space-grotesk font-black tracking-tighter mb-8 uppercase text-gray-900">
           Status <span className="bg-[#10B981] text-gray-900 px-4 border-4 border-gray-900 shadow-[6px_6px_0px_0px_rgba(17,24,39,1)] inline-block -rotate-2">Today</span>
         </h1>
-        <p className="text-2xl font-bold text-gray-700 max-w-3xl mx-auto border-4 border-gray-900 p-6 shadow-[6px_6px_0px_0px_rgba(17,24,39,1)] bg-white transform rotate-1 mb-16">
+        <p className="text-lg md:text-2xl font-bold text-gray-700 max-w-3xl mx-auto border-4 border-gray-900 p-4 md:p-6 shadow-[6px_6px_0px_0px_rgba(17,24,39,1)] bg-white transform rotate-1 mb-16">
           Still operating, growing, and fully transformed into a regulated bank.
         </p>
 
@@ -53,20 +53,24 @@ export default function FinancialsPage() {
           <BentoCard 
             title="Valuation Growth" 
             icon={<LineChartIcon className="w-5 h-5" />}
-            className="h-[400px]"
+            className="h-[300px] md:h-[400px]"
           >
-            <div className="h-64 mt-4">
-              <LineChart data={valuationData} />
+            <div className="h-48 md:h-64 mt-4 w-full overflow-x-auto">
+              <div className="min-w-[400px] h-full">
+                <LineChart data={valuationData} />
+              </div>
             </div>
           </BentoCard>
 
           <BentoCard 
             title="User Acquisition" 
             icon={<BarChart3 className="w-5 h-5" />}
-            className="h-[400px]"
+            className="h-[300px] md:h-[400px]"
           >
-            <div className="h-64 mt-4">
-              <BarChart data={userGrowthData} />
+            <div className="h-48 md:h-64 mt-4 w-full overflow-x-auto">
+              <div className="min-w-[400px] h-full">
+                <BarChart data={userGrowthData} />
+              </div>
             </div>
           </BentoCard>
         </BentoGrid>
@@ -95,8 +99,8 @@ export default function FinancialsPage() {
           </BentoCard>
 
           <div className="md:col-span-2 mt-8">
-            <div className="p-12 bg-[#bf00ff] text-center border-4 border-gray-900 shadow-[8px_8px_0px_0px_rgba(17,24,39,1)] transform hover:-translate-y-2 hover:translate-x-2 transition-all group">
-               <h3 className="text-3xl md:text-5xl font-space-grotesk font-black text-white leading-snug uppercase tracking-tighter drop-shadow-[4px_4px_0_rgba(17,24,39,1)] group-hover:scale-105 transition-transform">
+            <div className="p-6 md:p-12 bg-[#bf00ff] text-center border-4 border-gray-900 shadow-[8px_8px_0px_0px_rgba(17,24,39,1)] transform hover:-translate-y-2 hover:translate-x-2 transition-all group">
+               <h3 className="text-xl md:text-5xl font-space-grotesk font-black text-white leading-snug uppercase tracking-tighter drop-shadow-[4px_4px_0_rgba(17,24,39,1)] group-hover:scale-105 transition-transform">
                  "A regulatory shock in 2022 nearly ended slice's original business — instead, it forced a pivot into a full, regulated banking licence, turning a near-death crisis into a more durable model."
                </h3>
             </div>

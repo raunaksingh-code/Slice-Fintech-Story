@@ -80,7 +80,7 @@ export default function FounderPage() {
                 <h2 className="text-4xl font-space-grotesk font-black uppercase tracking-tighter text-white mt-12">Rajan Bajaj</h2>
                 <p className="text-[var(--color-green-success)] font-bold text-lg uppercase tracking-widest mt-1">Founder & CEO</p>
                 
-                <div className="flex gap-4 mt-6">
+                <div className="flex flex-wrap justify-center gap-2 md:gap-4 mt-6">
                    <div className="flex items-center gap-2 text-sm font-bold text-gray-900 bg-yellow-300 border-2 border-gray-900 px-4 py-2 shadow-[2px_2px_0px_0px_rgba(17,24,39,1)] uppercase">
                      <MapPin className="w-4 h-4 stroke-[3]" /> Bengaluru
                    </div>
@@ -93,7 +93,7 @@ export default function FounderPage() {
           </motion.div>
           
           <div className="w-full md:w-2/3">
-            <h1 className="text-5xl md:text-7xl font-space-grotesk font-black tracking-tighter mb-10 uppercase leading-none text-gray-900">
+            <h1 className="text-4xl md:text-7xl font-space-grotesk font-black tracking-tighter mb-10 uppercase leading-none text-gray-900">
               "We didn't want to build just another bank. We wanted to build a <span className="text-white bg-[var(--color-purple-slice)] px-2 inline-block -rotate-1 border-4 border-gray-900 shadow-[4px_4px_0px_0px_rgba(17,24,39,1)]">financial companion</span>."
             </h1>
             
@@ -118,7 +118,7 @@ export default function FounderPage() {
         <div className="absolute inset-0 bg-[repeating-linear-gradient(45deg,transparent,transparent_20px,rgba(0,0,0,0.05)_20px,rgba(0,0,0,0.05)_40px)]" />
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-20">
-            <h2 className="text-6xl md:text-8xl font-space-grotesk font-black uppercase tracking-tighter drop-shadow-[4px_4px_0_rgba(17,24,39,1)] text-white">The Journey</h2>
+            <h2 className="text-5xl md:text-8xl font-space-grotesk font-black uppercase tracking-tighter drop-shadow-[4px_4px_0_rgba(17,24,39,1)] text-white">The Journey</h2>
           </div>
           
           <div className="space-y-12 relative">
@@ -138,8 +138,8 @@ export default function FounderPage() {
                 </div>
                 <div className="flex-1 p-8 bg-white border-4 border-gray-900 shadow-[6px_6px_0px_0px_rgba(17,24,39,1)] hover:-translate-y-1 hover:translate-x-1 hover:shadow-[2px_2px_0px_0px_rgba(17,24,39,1)] transition-all">
                   <div className="text-sm font-black text-gray-900 bg-[#10B981] inline-block px-3 py-1 border-2 border-gray-900 shadow-[2px_2px_0px_0px_rgba(17,24,39,1)] mb-4 uppercase tracking-widest">{milestone.year}</div>
-                  <h3 className="text-3xl font-space-grotesk font-black mb-3 uppercase tracking-tight">{milestone.title}</h3>
-                  <p className="text-xl font-medium text-gray-700">{milestone.description}</p>
+                  <h3 className="text-2xl md:text-3xl font-space-grotesk font-black mb-3 uppercase tracking-tight">{milestone.title}</h3>
+                  <p className="text-base md:text-xl font-medium text-gray-700">{milestone.description}</p>
                 </div>
               </motion.div>
             ))}
