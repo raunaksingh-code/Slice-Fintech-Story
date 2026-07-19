@@ -12,9 +12,16 @@ export default function Footer() {
               slice
             </span>
           </Link>
-          <p className="text-sm">
+          <p className="text-sm mb-6">
             Building the simplest, fastest, and most transparent payments platform.
           </p>
+          <div className="bg-white p-2 inline-block rounded-lg shadow-sm">
+            <img 
+              src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://raunaksingh-code.github.io/Slice-Fintech-Story/" 
+              alt="Website QR Code" 
+              className="w-[120px] h-[120px]" 
+            />
+          </div>
         </div>
         <div className="col-span-1 md:col-span-2">
           <h4 className="font-semibold text-white mb-4">Explore</h4>
