@@ -87,16 +87,28 @@ export default function ScalePage() {
             <div className="flex-1 flex items-end mt-4 -mb-6 h-32 min-h-[120px]">
                <div className="w-full flex items-end gap-2 h-full">
                  <div className="w-1/4 bg-[var(--color-purple-slice)]/20 rounded-t-lg h-[20%] relative group">
-                   <span className="absolute -top-6 text-xs text-gray-400 hidden group-hover:block transition-all">2019</span>
+                   <div className="absolute -top-10 left-1/2 -translate-x-1/2 text-center">
+                     <span className="block text-[10px] md:text-xs font-bold text-[var(--color-purple-slice)]">0.3M</span>
+                     <span className="block text-[8px] md:text-[10px] text-gray-400">2019</span>
+                   </div>
                  </div>
                  <div className="w-1/4 bg-[var(--color-purple-slice)]/40 rounded-t-lg h-[40%] relative group">
-                   <span className="absolute -top-6 text-xs text-gray-400 hidden group-hover:block transition-all">2020</span>
+                   <div className="absolute -top-10 left-1/2 -translate-x-1/2 text-center">
+                     <span className="block text-[10px] md:text-xs font-bold text-[var(--color-purple-slice)]">2M</span>
+                     <span className="block text-[8px] md:text-[10px] text-gray-400">2020</span>
+                   </div>
                  </div>
                  <div className="w-1/4 bg-[var(--color-purple-slice)]/70 rounded-t-lg h-[60%] relative group">
-                   <span className="absolute -top-6 text-xs text-gray-400 hidden group-hover:block transition-all">2021</span>
+                   <div className="absolute -top-10 left-1/2 -translate-x-1/2 text-center">
+                     <span className="block text-[10px] md:text-xs font-bold text-[var(--color-purple-slice)]">7M</span>
+                     <span className="block text-[8px] md:text-[10px] text-gray-400">2021</span>
+                   </div>
                  </div>
                  <div className="w-1/4 bg-[var(--color-purple-slice)] rounded-t-lg h-[100%] relative group">
-                   <span className="absolute -top-6 left-1 text-xs font-bold text-[var(--color-purple-slice)]">15M+</span>
+                   <div className="absolute -top-10 left-1/2 -translate-x-1/2 text-center">
+                     <span className="block text-[10px] md:text-xs font-bold text-[var(--color-purple-slice)]">15M+</span>
+                     <span className="block text-[8px] md:text-[10px] text-gray-400">2022+</span>
+                   </div>
                  </div>
                </div>
             </div>
