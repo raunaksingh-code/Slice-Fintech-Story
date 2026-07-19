@@ -6,6 +6,7 @@ import Image from "next/image";
 import { User, Briefcase, GraduationCap, Trophy, MapPin, Target, AlertTriangle, Building2, Landmark } from "lucide-react";
 import { GlassCard, BentoGrid, BentoCard } from "@/components/ui/Cards";
 import NextPageButton from "@/components/ui/NextPageButton";
+import founderCartoon from "../../public/founder_cartoon.png";
 
 export default function FounderPage() {
   const milestones = [
@@ -68,7 +69,7 @@ export default function FounderPage() {
               <div className="absolute inset-0 bg-[var(--color-purple-slice)] mix-blend-overlay opacity-30 z-10" />
               
               <Image 
-                src="../founder_cartoon.png" 
+                src={founderCartoon}
                 alt="Founder Cartoon Portrait"
                 fill
                 className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500"

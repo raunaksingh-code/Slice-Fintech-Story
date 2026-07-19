@@ -6,6 +6,7 @@ import { ArrowRight, Smartphone, Zap, Shield, Sparkles, PieChart, Users, Trendin
 import Link from "next/link";
 import { GlassCard, BentoGrid, BentoCard, MetricCard } from "@/components/ui/Cards";
 import NextPageButton from "@/components/ui/NextPageButton";
+import heroBg from "../public/slice_hero_bg.png";
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
           animate={{ scale: 1 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('./slice_hero_bg.png')" }}
+          style={{ backgroundImage: `url(${heroBg.src})` }}
         />
         {/* Subtle overlay for text readability */}
         <div className="absolute inset-0 bg-black/20" />
