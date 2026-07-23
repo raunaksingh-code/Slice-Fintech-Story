@@ -85,7 +85,7 @@ export default function Home() {
       {/* KPI Section */}
       <section className="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full -mt-20 relative z-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <MetricCard title="Total Users" value="15M+" trend="+2M this year" className="bg-white/80 backdrop-blur-xl" />
+          <MetricCard title="Total Users" value="20 Million" trend="+2M this year" className="bg-white/80 backdrop-blur-xl" />
           <MetricCard title="Transactions Processed" value="₹50K Cr+" trend="All time" className="bg-white/80 backdrop-blur-xl" />
           <MetricCard title="App Rating" value="4.7/5" trend="Based on 500K+ reviews" className="bg-white/80 backdrop-blur-xl" />
         </div>
